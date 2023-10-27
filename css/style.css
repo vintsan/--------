@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@400;700&display=swap');
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.html,
+body {
+    min-width: 1000px;
+    min-height: 1750px;
+}
+
+body {
+    min-width: 970px;
+
+    margin: 0;
+    padding: 0;
+
+    font-family: "PT Sans Narrow", Arial, sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 700;
+
+    color: #5dc57c;
+
+    background-color: #e5f8df;
+
+    /* ВРЕМЕННО ДЛЯ СЕТКИ */
+    border: 2px solid #e71111;
+}
+
+.visually-hidden:not(:focus):not(:active),
+input[type="checkbox"].visually-hidden,
+input[type="radio"].visually-hidden {
+    position: absolute;
+
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+
+    white-space: nowrap;
+
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+a {
+    text-decoration: none;
+}
+
+.main-header {
+    margin-bottom: 20px;
+    /* ВРЕМЕННО ДЛЯ СЕТКИ */
+/*     border: 2px solid #0e0ef1; */
+}
+
+.main-navigation {
+    width: 1100px;
+    font-size: 16px;
+    line-height: 20px;
+    font-family: "PT Sans Narrow", Arial, sans-serif;
+    font-weight: 700;
+    background-color: #ffffff;
+
+    margin: auto;
+
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+
+    /* ВРЕМЕННО ДЛЯ СЕТКИ */
+    /*     border: 2px solid #f1520e; */
+}
+
+
+.main-header-logo {
+    width: 90px;
+    height: 91px;
+    display: block;
+    margin-bottom: 10px;
+    /* ВРЕМЕННО ДЛЯ СЕТКИ */
+    /*     border: 2px solid #f1520e; */
+}
+
+.container {
+    font-size: 30px;
+    margin-left: 5px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+    /* ВРЕМЕННО ДЛЯ СЕТКИ */
+    /*     border: 2px solid #f1520e; */
+}
+
+.container a {
+    color: #5dc57c;
+}
+
+main.container {
+    margin-bottom: 65px;
+}
+
+.main-navigation-wrapper {
+    width: 100%;
+    margin-bottom: 10px;
+    background-color: #ffffff;
+}
+
+.main-navigation-wrapper {
+    display: flex;
+    justify-content: space-between;
+
+    align-items: center;
+    flex-wrap: nowrap;
+    /* ВРЕМЕННО ДЛЯ СЕТКИ */
+    /*     border: 2px solid #f1520e; */
+}
+
+.site-navigation,
+.user-navigation {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    list-style: none;
+
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-between;
+
+    /* ВРЕМЕННО ДЛЯ СЕТКИ */
+    /*     border: 2px solid #f1520e; */
+}
+
+.user-navigation .login-link {
+    position: relative;
+    padding-left: 50px;
+    cursor: pointer;
+    color: #00BCD4;
+}
+
+.site-navigation {
+    width: 850px;
+}
+
+.name {
+    font-size: 17px;
+    margin: 0;
+    padding: 0;
+    width: 165px;
+    text-align: center;
+
+    /* ВРЕМЕННО ДЛЯ СЕТКИ */
+    /*     border: 3px solid #3b0ef1; */
+}
+
+.name p {
+    margin: 0;
+}
+
+
+.user-navigation {
+    max-width: 140px;
+    margin-left: 20px;
+    margin-right: 15px;
+}
+
+
+.uppercase {
+    font-size: 23px;
+    text-transform: uppercase;
+}
+
+
+.info-news-list {
+    font-size: 30px;
+    line-height: 50px;
+    list-style: none;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.info-news-first {
+width: 500px;
+border-radius: 60px;
+margin-right: 10px;
+padding: 10px;
+color: rgb(255, 255, 255);
+background-color: #4CAF50;
+
+    /* ВРЕМЕННО ДЛЯ СЕТКИ */
+    border: 3px solid #3b0ef1;
+}
+
+.info-news-second {
+    width: 500px;
+    border-radius: 60px;
+    padding: 10px;
+    background-color: #fff;
+    /* ВРЕМЕННО ДЛЯ СЕТКИ */
+    border: 3px solid #f13b0e;
+}
+.info-news-second h3 {
+    color: rgb(104, 223, 0);
+    font-size: 40px;
+    -webkit-text-stroke: 2px #02a25f;
+}
+.info-news-second p:first-of-type {
+    color: rgb(104, 223, 0);
+    font-size: 35px;
+    -webkit-text-stroke: 2px #02a25f;
+}
+
+.gallery-container {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.gallery-container img {
+    border-radius: 80px;
+}
